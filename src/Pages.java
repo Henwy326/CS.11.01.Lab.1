@@ -8,6 +8,6 @@ public class Pages {
         scanner.close();
 
         int pages = (100 - age);
-        System.out.println("You should read " + pages + " pages");
+        System.out.println(age + "-year olds should read at least " + pages + " pages before giving up on a book.");
     }
 }
